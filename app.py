@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-CommunityCare — Community Chronic Disease Management Support System
+Silver Care — Community Chronic Disease Management Support System
 ===================================================================
 
 A WeChat-based medication management loop for elderly chronic-disease
@@ -43,7 +43,7 @@ DOC_OPENID = os.environ.get("DOC_OPENID", "")    # Doctor-side alert receiver
 RETRY_MIN = int(os.environ.get("RETRY_MINUTES", "30"))  # Confirmation timeout (min)
 DB     = os.environ.get("DB_PATH", "demo.db")    # SQLite database path
 
-app = FastAPI(title="CommunityCare")
+app = FastAPI(title="Silver Care")
 
 # ---------------------------------------------------------------------------
 # Data layer — four-table model: patient / plan / task / confirmation

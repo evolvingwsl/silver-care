@@ -1,4 +1,4 @@
-# CommunityCare — Community Chronic Disease Management Support System
+# Silver Care — Community Chronic Disease Management Support System
 
 A WeChat-based medication management loop for elderly chronic-disease patients
 in community healthcare settings. It closes the three gaps of traditional
